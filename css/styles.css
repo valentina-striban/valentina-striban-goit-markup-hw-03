@@ -7,7 +7,6 @@ margin: 0;
 
 a {
 text-decoration: none;
-color: currentColor;
 }
 
 h1,
@@ -17,7 +16,7 @@ h4,
 h5,
 h6,
 p {
-margin: 0;
+    margin: 0;
 }
 
 address {
@@ -32,6 +31,11 @@ ul, ol {
     list-style: none;
     margin: 0;
     padding-left: 0;
+}
+
+li {
+    display: list-item;
+
 }
 
 img {
@@ -53,6 +57,10 @@ clip: rect(0 0 0 0);
 overflow: hidden;
 }
 
+header {
+    display: block;
+}
+
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
@@ -61,6 +69,7 @@ overflow: hidden;
 
 .header-container {
     display: flex;
+    align-items: center;
 
 }
 
@@ -138,7 +147,7 @@ color: #404bbf;
 
 .container {
     /* max-width: 1158px; */
-    max-width: 1158px;
+    width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -311,7 +320,6 @@ width: ((100% - 2 * 24px) / 3);
 }
 
 .portfolio-img {
-    margin-bottom: 32px;
 }
 
 .portfolio-border {
@@ -347,7 +355,6 @@ padding-bottom: 100px;
 }
 
 .footer-logo {
-    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
